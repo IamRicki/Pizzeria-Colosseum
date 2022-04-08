@@ -1,0 +1,247 @@
+<!DOCTYPE html>         
+<html lang="sv">
+<head>
+    <title>Pizzeria Colosseum</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Detta är Header start -->
+    <header class="header">
+      <div class="container">
+          <div class="row justify-content-between align-items-center">
+             <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>  
+             </div>  
+            <button type="button" class="nav-toggler">
+                <span></span>
+            </button>  
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item"><a href="#home">home</a></li>
+                    <li class="nav-item"><a href="#about">about</a></li>
+                    <li class="nav-item"><a href="#our-menu">our menu</a></li>
+                    <li class="nav-item"><a href="#testimonials">testimonials</a></li>
+                    <li class="nav-item"><a href="#team">team</a></li>
+                    <li class="nav-item"><a href="#contact">contact us</a></li>
+                </ul>
+            </nav>        
+          </div>
+      </div>    
+    </header>
+   
+    <!-- Detta är Headerns slut -->
+
+    <!-- hem sektionens start -->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="video">
+        <video autoplay loop muted>
+            <source src="img/home-bg.mp4" type="video/mp4">
+        </video></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text">
+                    <h1>Pizzeria Colosseum</h1>
+                    <p>Pizzor, Kebabpizzor, Kycklingpizzor, Pizza med fläskfilé,
+                       Pizza med skaldjur, Pizza med Oxfilé, Pizza med köttfärssås, 
+                       Kebab, Kyckling, Sallad, Hamburgare, Falafel</p>
+                    <a href="#our-menu" class="btn btn-deafult">Våran meny</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- home sektionens slut -->
+
+    <!-- om oss sektionens start  -->
+         <section class="about-section sec-padding" id="about">
+             <div class="container">
+                 <div class="row">
+                     <div class="section-title">
+                         <h2 data-title="våran historia">Om oss</h2>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="about-text">
+                        <h3>Välkommn till Pizzeria Colosseum</h3>
+                        <p>Colosseum Pizzeria fick sitt namn efter en koloss, det vill säga en enorm staty av kejsar Nero som stod vid sidan om byggnaden, i riktning mot Forum Romanum. Neros staty, som var 40 meter hög, var utförd i förgylld brons. Det officiella namnet på Colosseum är dock Amphiteatrum Flavium eller Den flaviska amfiteatern, eftersom den uppfördes under den tid då den flaviska ätten innehade kejsarmakten. Kolossen av Nero smältes senare ner för tillverkning av vapen. Även armeringen till Colosseum drogs ut och smältes ner till vapen, vilket ledde till att en stor del av byggnadens yttre del rasade samman vid ett jordskalv. Efter detta har stora mängder vit marmor bortförts från byggnaden, bland annat till bygget av Peterskyrkan och Fontana di Trevi. Den del av byggnaden som återstår är ännu en mäktig syn och ett populärt turistmål.</p>
+                        <a href="#our-menu" class="btn btn-default">kika in på vår meny</a>
+                    </div>
+                     <div class="about-img">
+                        <div class="img-box">
+                            <h3>Colosseum Rom</h3>
+                            <img src="img/om oss/om oss.webp" alt="Om oss bild">
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+    <!-- om oss sektionens slut -->
+    
+    <!-- menu start-->
+    <section class="menu-section sec-padding" id="our-menu">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="order now">Våran meny</h2>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="menu-tabs">
+                    <button type="button" class="menu-tab-item active" data-target="#pizzor">Pizzor</button>
+                    <button type="button" class="menu-tab-item" data-target="#sallad">Sallad</button>
+                    <button type="button" class="menu-tab-item" data-target="#hamburgare">Hamburgare</button>
+                    <button type="button" class="menu-tab-item" data-target="#falafel">Falafel</button>
+                </div>
+            </div> 
+            <div class="row menu-tab-content active" id="pizzor">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/Margaretaa.webp" alt="Margareta">
+                        <h3>Margareta</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        90:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kebabpizza.jpg" alt="Kebab Pizza">
+                        <h3>Kebab Pizza</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kycklingpizza.jpg" alt="Kyckling Pizza">
+                        <h3>Kyckling Pizza</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/batman.jpg" alt="Batman">
+                        <h3>Batman</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-tab-content" id="sallad">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kycklingsallad.jpg" alt="Kycklingsallad">
+                        <h3>Kycklingsallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/kebabsallad.jpg" alt="Kebabsallad">
+                        <h3>Kebabsallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/räksallad.jpeg" alt="Räksallad">
+                        <h3>Räksallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hawaiisallad.jpg" alt="Hawaiisallad">
+                        <h3>Hawaiisallad</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row menu-tab-content" id="hamburgare">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare90g.jpg" alt="Hamburgare 90gr">
+                        <h3>Hamburagre 90gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        70:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare90g.jpg" alt="Hamburgare 90gr">
+                        <h3>Hamburagre 90gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        90:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare 150g.jpg" alt="Hamburgare 150gr">
+                        <h3>Hamburagre 150gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        80:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/hamburgare.jpeg" alt="Hamburgare 150gr">
+                        <h3>Hamburagre 150gr</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        100:-
+                    </div>
+                </div>
+
+            </div>
+            <div class="row menu-tab-content" id="falafel">
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/falafelrulle.jpg" alt="Falafelrulle">
+                        <h3>Falafelrulle</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-title">
+                        <img src="img/meny/falafeltallrik.jpg" alt="Falafeltallrik">
+                        <h3>Falafeltallrik</h3>
+                    </div>
+                    <div class="menu-item-price">
+                        110:-
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+
+    <!-- menyn slut-->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
