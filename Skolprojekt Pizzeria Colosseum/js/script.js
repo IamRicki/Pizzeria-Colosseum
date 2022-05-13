@@ -1,4 +1,8 @@
 
+window.addEventListener("load", function(){
+    /* ----------------- Animation när man skrollar -------------------- */
+    AOS.init();
+});
 
 /* ----------------- Aktivera menyn -------------------- */
 const navToggler = document.querySelector(".nav-toggler");
@@ -36,5 +40,7 @@ menuTabs.addEventListener("click", function(e){
         const menuSection = document.querySelector(".menu-section");
         menuSection.querySelector(".menu-tab-content.active").classList.remove("active");
         menuSection.querySelector(target).classList.add("active");
+        // Animation när man skrollar
+        AOS.init();
     }
 });
